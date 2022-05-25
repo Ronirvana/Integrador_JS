@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    width: auto;
+    height: 15rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    text-align: center;
+
+}
+#containerCards{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.total{
+
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: 2rem;
+    
+}
+.btnForm{
+    margin:1rem;
+    background-color: rgba(117, 207, 57, 0.877);
+    border-radius: 0.2rem;
+}
+
+#gradientNav {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    filter: brightness(75%);
+}
+#navEnd {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
